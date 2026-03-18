@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: #5410e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: #2B0875;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #1C054D;
+        }
+
+        a:active {
+            color: #19f711;
+        }
+
+        a::before {
+            color: black;
+            content: '⇒';
+        }
+
+        a::after {
+            color: black;
+            content: '⇐';
+        }
+
+        .especial {
+            background-color: rgba(0, 0, 0, 0.128);
+        }
+
+        .especial::before {
+            color: #ff1f1f;
+            content: '⇒';
+        }
+
+        .especial::after {
+            color: #ff1f1f;
+            content: '⇐';
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+<ul>
+    <li><a target="_blank" href="https://gustavoguanabara.github.io">Repostório GitHub</a></li>
+    <li><a target="_blank" href="https://youtube.com/cursoemvideo/">Canal do YouTube</a></li>
+    <li><a target="_blank" href="https://www.cursoemvideo.com">Site do Curso em Video</a></li>
+</ul>
+    <h1>Personalizando Links</h1>
+<ul>
+    <li><a class="especial" target="_blank" href="https://gustavoguanabara.github.io">Repostório GitHub</a></li>
+    <li><a class="especial" target="_blank" href="https://youtube.com/cursoemvideo/">Canal do YouTube</a></li>
+    <li><a class="especial" target="_blank" href="https://www.cursoemvideo.com">Site do Curso em Video</a></li>
+</ul>
+</body>
+</html>
