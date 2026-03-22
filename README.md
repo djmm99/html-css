@@ -3,4 +3,6 @@
 
  Estou sprendendo a criar sites e agora vou gerenciar meus repositorios!
 
- [text](https://djmm99.github.io/html-css/)
+ [Projeto origem do macote do Android](https://djmm99.github.io/html-css/desafios/d010_sosinho/index.html)
+
+ [Projeto Cordel Moderno](https://djmm99.github.io/html-css/desafios/d012/index.html)
