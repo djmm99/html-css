@@ -3,8 +3,8 @@
 
  Veja meus ultimos projetos:
  
- <a href="https://djmm99.github.io/html-css/desafios/d010_sosinho/index.html" target="_blank">Projeto origem do macote do Android</a><br>
+ <a href="https://djmm99.github.io/projeto-android/" target="_blank">Projeto origem do macote do Android</a><br>
  
  
- <a href="https://djmm99.github.io/html-css/desafios/d012/index.html" target="_blank">Projeto Cordel Moderno</a>
+ <a href="https://djmm99.github.io/projeto-cordel/" target="_blank">Projeto Cordel Moderno</a>
 
