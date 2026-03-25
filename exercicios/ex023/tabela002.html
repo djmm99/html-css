@@ -14,6 +14,8 @@
         }
 
         table {
+            position: relative;
+            margin: auto;
             width: 460px;
             border-collapse: collapse;
         }
@@ -25,8 +27,24 @@
             font-size: 1.4em;
         }
 
-        tr:hover {
-            background-color: #9c9c9c;
+        thead, tfoot {
+            background-color: #2a2a2a;
+            color: #CCCCCC;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            background-color: #2a2a2a;
+            top: -1px;
+        }
+
+        tbody >tr:nth-child(even){
+            background-color: #dfdede;
+        }
+
+        tbody >tr:hover {
+            background-color: #faf9c9;
+            transition: background-color 0.4s ease;
         }
 
         th, td {
@@ -35,17 +53,19 @@
             
         }
 
-        thead, tfoot {
-            background-color: rgb(42, 42, 42);
-            color: #CCCCCC;
-        }
-
         .num {
             text-align: right;
         }
 
         .porcent {
             text-align: right;
+        }
+
+        p {
+            padding: 0px 20px;
+            padding-top: 10px;
+            text-align: justify;
+            text-indent: 20px;
         }
     </style>
 </head>
@@ -66,7 +86,7 @@
 (tr>td+td.num*2)*27
 -->
     <table>
-        <caption>Populagao das Unidades Federativas</caption>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th scope="col">Estado</th>
@@ -219,5 +239,9 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, aspernatur provident facere doloribus ipsum optio consequuntur ut sint a, est incidunt officia perferendis nulla autem nihil ducimus modi unde omnis maiores in quam possimus. Sed architecto earum iure possimus voluptates? Ea hic, sed veniam exercitationem itaque dolor officia repudiandae ab rem soluta quos eos similique magnam expedita modi. Repellendus, dignissimos accusantium natus officiis molestias quos mollitia modi minus necessitatibus illo error molestiae exercitationem qui fugiat nihil omnis, et cumque? Voluptates ullam earum eum et aspernatur deserunt aperiam, expedita sed odit. Illum magni, corrupti rerum alias vitae culpa, ab ad architecto nostrum reiciendis doloribus consectetur ipsum nihil sed ea eaque maiores? Qui tempore repellat quibusdam commodi et harum iusto suscipit similique alias quos eveniet, deserunt veritatis doloremque voluptatum aliquid perferendis architecto natus adipisci molestiae nemo quasi quaerat? Ab nesciunt laborum delectus qui reici</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, aspernatur provident facere doloribus ipsum optio consequuntur ut sint a, est incidunt officia perferendis nulla autem nihil ducimus modi unde omnis maiores in quam possimus. Sed architecto earum iure possimus voluptates? Ea hic, sed veniam exercitationem itaque dolor officia repudiandae ab rem soluta quos eos similique magnam expedita modi. Repellendus, dignissimos accusantium natus officiis molestias quos mollitia modi minus necessitatibus illo error molestiae exercitationem qui fugiat nihil omnis, et cumque? Voluptates ullam earum eum et aspernatur deserunt aperiam, expedita sed odit. Illum magni, corrupti rerum alias vitae culpa, ab ad architecto nostrum reiciendis doloribus consectetur ipsum nihil sed ea eaque maiores? Qui tempore repellat quibusdam commodi et harum iusto suscipit similique alias quos eveniet, deserunt veritatis doloremque voluptatum aliquid perferendis architecto natus adipisci molestiae nemo quasi quaerat? Ab nesciunt laborum delectus qui reici</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, aspernatur provident facere doloribus ipsum optio consequuntur ut sint a, est incidunt officia perferendis nulla autem nihil ducimus modi unde omnis maiores in quam possimus. Sed architecto earum iure possimus voluptates? Ea hic, sed veniam exercitationem itaque dolor officia repudiandae ab rem soluta quos eos similique magnam expedita modi. Repellendus, dignissimos accusantium natus officiis molestias quos mollitia modi minus necessitatibus illo error molestiae exercitationem qui fugiat nihil omnis, et cumque? Voluptates ullam earum eum et aspernatur deserunt aperiam, expedita sed odit. Illum magni, corrupti rerum alias vitae culpa, ab ad architecto nostrum reiciendis doloribus consectetur ipsum nihil sed ea eaque maiores? Qui tempore repellat quibusdam commodi et harum iusto suscipit similique alias quos eveniet, deserunt veritatis doloremque voluptatum aliquid perferendis architecto natus adipisci molestiae nemo quasi quaerat? Ab nesciunt laborum delectus qui reici</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, aspernatur provident facere doloribus ipsum optio consequuntur ut sint a, est incidunt officia perferendis nulla autem nihil ducimus modi unde omnis maiores in quam possimus. Sed architecto earum iure possimus voluptates? Ea hic, sed veniam exercitationem itaque dolor officia repudiandae ab rem soluta quos eos similique magnam expedita modi. Repellendus, dignissimos accusantium natus officiis molestias quos mollitia modi minus necessitatibus illo error molestiae exercitationem qui fugiat nihil omnis, et cumque? Voluptates ullam earum eum et aspernatur deserunt aperiam, expedita sed odit. Illum magni, corrupti rerum alias vitae culpa, ab ad architecto nostrum reiciendis doloribus consectetur ipsum nihil sed ea eaque maiores? Qui tempore repellat quibusdam commodi et harum iusto suscipit similique alias quos eveniet, deserunt veritatis doloremque voluptatum aliquid perferendis architecto natus adipisci molestiae nemo quasi quaerat? Ab nesciunt laborum delectus qui reici</p>
 </body>
 </html>
