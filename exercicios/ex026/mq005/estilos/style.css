@@ -2,6 +2,64 @@
 
 * {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #747373;
+}
+
+header h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+menu {
+    box-shadow: 1px 3px 4px 0px #00000094;
+    display: block;    
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #373737;
+    color: white;
+    text-align: center;
+    border: 1px solid #747373;
+}
+
+menu > ul > li > a:hover {
+    background-color: #3737376f;
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px 0px #0000006f;
+}
+
+article > p {
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+article > h3, article > h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 20px;
 }
