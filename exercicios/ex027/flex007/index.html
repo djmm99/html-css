@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
+    <title>Flexible Box</title>
+    <style>
+
+        div.conteiner {
+            background-color: #f5d5aa;
+            border: 1px solid #000000;
+            border-radius: 10px;
+
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item {
+            font-size: 2em;
+            background-color: #9c9cff;
+            border: 1px solid #000000;
+            border-radius: 10px;
+            padding: 5px 15px;
+            margin: 5px;
+        }
+        
+        div#i1 {
+            order: 0;
+        }
+
+        div#i2 {
+            order: -2;
+            
+        }
+
+        div#i3 {
+            order: 4;
+            
+        }
+
+        div#i4 {
+            order: 8;
+            
+        }
+
+        div#i5 {
+            order: 2;
+            
+        }
+
+        div#i6 {
+            order: 0;
+            
+        }
+
+        div#i7 {
+            order: -4;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Dicas de atalhos (VS code): 
+     
+        - Para duplicar uma linha dentro do código (ou uma parte grande selecionada), usem shift+alt+seta
+        - Para mover uma linha dentro do código, usem alt+seta
+        - Para apagar uma linha de código, usem ctrl+shift+k. -->
+
+    <!--EMMENT .conteiner>div.item{$}*7 -->
+
+    <div class="conteiner">
+        <div class="item" id="i1">2</div>
+        <div class="item" id="i2">1</div>
+        <div class="item" id="i3">3</div>
+        <div class="item" id="i4">4</div>
+        <div class="item" id="i5">5</div>
+        <div class="item" id="i6">6</div>
+        <div class="item" id="i7">7</div>
+    </div>
+</body>
+</html>
