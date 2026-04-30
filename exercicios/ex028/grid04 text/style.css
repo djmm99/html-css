@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+*{
+
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(12, 1fr);
+    gap: 3px;
+}
+
+.caixa1 {
+    background-color: #ffa361;
+
+    grid-row-start:1;
+    grid-row-end:-4;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+
+.caixa2 {
+    background-color: #ffa361;
+
+    grid-row-start:1;
+    grid-row-end:-4;
+    grid-column-start:3;
+    grid-column-end:7;
+}
+
+.caixa3 {
+    background-color: #ffa361;
+
+    grid-row-start:1;
+    grid-row-end:-4;
+    grid-column-start:7;
+    grid-column-end:11;
+}
+
+.caixa4 {
+    background-color: #ffa361;
+
+    grid-row-start:1;
+    grid-row-end:-4;
+    grid-column-start:11;
+    grid-column-end:13;
+}
+
+.caixa5 {
+    background-color: #cbc9ff;
+
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end:5;
+}
+
+.caixa6 {
+    background-color: #cbc9ff;
+
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:5;
+    grid-column-end:9;
+}
+
+.caixa7 {
+    background-color: #cbc9ff;
+
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:9;
+    grid-column-end:13;
+}
+
+.caixa8 {
+    background-color: #ffa361;
+
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:1;
+    grid-column-end:2;
+}
+
+.caixa9 {
+    background-color: #ffa361;
+
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:2;
+    grid-column-end:6;
+}
+
+.caixa10 {
+    background-color: #ffa361;
+
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:6;
+    grid-column-end:10;
+}
+
+.caixa11 {
+    background-color: #ffa361;
+
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:10;
+    grid-column-end:13;
+}
+
+.caixa12 {
+    background-color: #cbc9ff;
+
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:1;
+    grid-column-end:4;
+}
+
+.caixa13 {
+    background-color: #cbc9ff;
+
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:4;
+    grid-column-end:8;
+}
+
+.caixa14 {
+    background-color: #cbc9ff;
+
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:8;
+    grid-column-end:12;
+}
+
+.caixa15 {
+    background-color: #cbc9ff;
+
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:12;
+    grid-column-end:13;
+}
